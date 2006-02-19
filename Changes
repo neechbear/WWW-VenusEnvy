@@ -1,8 +1,11 @@
-Version 1.10 - 20th January 2006
+Version 1.10 - 19th February 2006
     + Added checks in get_url() method to check
       if the image is a reasonable size, and if
       not to try and guess if the image has been
       blocked against hotlinking.
+
+    + Changed to build with Module::Build from
+      svn instead of cvs repository
 
 Version 1.09 - 20th January 2006
     + Changed the useragent and refer in LWP::UA
